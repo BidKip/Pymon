@@ -49,7 +49,7 @@ class MapManager():
             Portal(from_world="carte",origin_point="enter_house2",target_world='maison2',teleport_point='spawn_house'),
             Portal(from_world='carte',origin_point='chemin_1',target_world="chemin_1",teleport_point="spawn_chemin_from_map1")
         ], pnjs=[
-            PNJ("robin",nb_points=4,dialog=["quel belle journée."])
+            PNJ("robin",nb_points=4,dialog=["Qu'elle belle journée."])
         ])
         self.enre_map('maison', portal=[
             Portal(from_world="maison",origin_point="exit_house",target_world='carte',teleport_point='exit_house')
