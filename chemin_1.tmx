@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="25" height="25" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="175">
+ <tileset firstgid="1" source="pokemon tileset.tsx"/>
+ <layer id="1" name="Background" width="25" height="25">
+  <data encoding="csv">
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,
+147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147,148,149,147
+</data>
+ </layer>
+ <layer id="4" name="route" width="25" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,
+0,0,289,290,290,290,290,290,290,290,290,290,290,290,290,290,291,0,0,692,692,692,0,0,0,
+0,0,336,337,337,337,337,337,337,337,337,337,337,337,337,337,338,0,0,692,692,692,0,0,0,
+0,0,336,337,337,337,337,337,337,337,337,337,337,337,337,337,338,0,0,692,692,692,0,0,0,
+0,0,336,337,337,337,337,337,337,337,337,337,337,337,337,337,338,0,0,692,692,692,0,0,0,
+0,0,336,337,337,337,337,337,337,337,337,337,337,337,337,337,338,0,0,692,692,692,0,0,0,
+0,0,383,384,384,384,384,384,384,384,384,384,384,384,384,384,385,0,0,692,692,692,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,
+0,0,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,0,0,0,
+0,0,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,0,0,0,
+0,0,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,692,0,0,0,
+0,0,692,692,692,289,290,290,290,290,290,290,290,290,290,290,290,290,290,291,0,0,0,0,0,
+0,0,692,692,692,336,337,337,337,337,337,337,337,337,337,337,337,337,337,338,0,0,0,0,0,
+0,0,692,692,692,336,337,337,337,337,337,337,337,337,337,337,337,337,337,338,0,0,0,0,0,
+0,0,692,692,692,383,384,384,384,384,384,384,384,384,384,384,384,384,384,385,0,0,0,0,0,
+0,0,692,692,692,692,692,692,692,692,692,692,692,692,0,0,0,0,0,0,0,0,0,0,0,
+0,0,692,692,692,692,692,692,692,692,692,692,692,692,0,0,0,0,0,0,0,0,0,0,0,
+0,0,692,692,692,692,692,692,692,692,692,692,692,692,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,692,692,692,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="deco" width="25" height="25">
+  <data encoding="csv">
+1091,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,522,522,522,1138,1138,1091,
+1138,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,522,522,522,1185,1185,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,438,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,485,0,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,480,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,436,0,0,0,0,0,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1185,
+1138,0,0,0,0,0,0,480,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,438,0,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,485,0,0,1138,
+1185,436,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1185,
+1138,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,480,1138,
+1185,0,0,438,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,436,0,0,0,0,1185,
+1138,0,0,485,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1138,
+1185,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,239,1185,
+1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,0,0,0,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,1138,
+1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,0,0,0,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185,1185
+</data>
+ </layer>
+ <layer id="6" name="top" width="25" height="25">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,0,0,0,1091,1091,1091,1091,1091,1091,1091,1091,1091,1091,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="8" name="walls">
+  <object id="16" name="collision" type="collision" x="224" y="368.333" width="175.667" height="31.6667"/>
+  <object id="17" name="collision" type="collision" x="384.667" y="0" width="15.3333" height="368"/>
+  <object id="18" name="collision" type="collision" x="352.667" y="0.333333" width="31" height="30.6667"/>
+  <object id="19" name="collision" x="0.5" y="0.5" width="352" height="22.5"/>
+  <object id="20" name="collision" type="collision" x="1.5" y="31" width="13.5" height="365.5"/>
+  <object id="21" name="collision" type="collision" x="0" y="368.5" width="174.5" height="30"/>
+  <object id="25" name="herbes" type="herbes" x="80.75" y="208.75" width="14.75" height="15.75"/>
+  <object id="26" name="herbes" type="herbes" x="32.5" y="49" width="15" height="15"/>
+  <object id="27" name="herbes" type="herbes" x="48.6818" y="48.5909" width="15" height="15"/>
+  <object id="28" name="herbes" type="herbes" x="96.8636" y="48.4091" width="15" height="15"/>
+  <object id="31" name="herbes" type="herbes" x="256.318" y="48.7727" width="15" height="15"/>
+  <object id="48" name="herbes" type="herbes" x="81.0455" y="80.2273" width="15" height="15"/>
+  <object id="49" name="herbes" type="herbes" x="65.5909" y="80.0455" width="15" height="15"/>
+  <object id="50" name="herbes" type="herbes" x="49.0455" y="79.6818" width="15" height="15"/>
+  <object id="51" name="herbes" type="herbes" x="32.8636" y="80.0455" width="15" height="15"/>
+  <object id="52" name="herbes" type="herbes" x="33.0455" y="64.2273" width="15" height="15"/>
+  <object id="53" name="herbes" type="herbes" x="48.1364" y="64.2273" width="15" height="15"/>
+  <object id="54" name="herbes" type="herbes" x="64.8636" y="64.0455" width="15" height="15"/>
+  <object id="55" name="herbes" type="herbes" x="81.0455" y="64.4091" width="15" height="15"/>
+  <object id="56" name="herbes" type="herbes" x="96.1364" y="64.0455" width="15" height="15"/>
+  <object id="57" name="herbes" type="herbes" x="113.045" y="64.4091" width="15" height="15"/>
+  <object id="58" name="herbes" type="herbes" x="128.864" y="64.5909" width="15" height="15"/>
+  <object id="59" name="herbes" type="herbes" x="144.136" y="64.2273" width="15" height="15"/>
+  <object id="41" name="herbes" type="herbes" x="161.227" y="64.9545" width="15" height="15"/>
+  <object id="42" name="herbes" type="herbes" x="176.5" y="64.4091" width="15" height="15"/>
+  <object id="43" name="herbes" type="herbes" x="192.682" y="64.0455" width="15" height="15"/>
+  <object id="44" name="herbes" type="herbes" x="208.318" y="65.5" width="15" height="15"/>
+  <object id="45" name="herbes" type="herbes" x="224.682" y="65.1364" width="15" height="15"/>
+  <object id="46" name="herbes" type="herbes" x="240.5" y="64.9545" width="15" height="15"/>
+  <object id="47" name="herbes" type="herbes" x="256.136" y="65.5" width="15" height="15"/>
+  <object id="32" name="herbes" type="herbes" x="240.5" y="48.9545" width="15" height="15"/>
+  <object id="33" name="herbes" type="herbes" x="224.682" y="48.7727" width="15" height="15"/>
+  <object id="34" name="herbes" type="herbes" x="209.227" y="49.1364" width="15" height="15"/>
+  <object id="35" name="herbes" type="herbes" x="193.227" y="48.7727" width="15" height="15"/>
+  <object id="36" name="herbes" type="herbes" x="176.682" y="48.9545" width="15" height="15"/>
+  <object id="37" name="herbes" type="herbes" x="160.136" y="48.7727" width="15" height="15"/>
+  <object id="38" name="herbes" type="herbes" x="144.864" y="48.7727" width="15" height="15"/>
+  <object id="39" name="herbes" type="herbes" x="130.136" y="48.7727" width="15" height="15"/>
+  <object id="40" name="herbes" type="herbes" x="113.955" y="48.2273" width="15" height="15"/>
+  <object id="29" name="herbes" type="herbes" x="81.0455" y="48.7727" width="15" height="15"/>
+  <object id="30" name="herbes" type="herbes" x="64.5" y="48.9545" width="15" height="15"/>
+  <object id="60" name="herbes" type="herbes" x="96.3182" y="80.3182" width="15" height="15"/>
+  <object id="61" name="herbes" type="herbes" x="111.591" y="81.0455" width="15" height="15"/>
+  <object id="62" name="herbes" type="herbes" x="127.955" y="81.0455" width="15" height="15"/>
+  <object id="63" name="herbes" type="herbes" x="143.227" y="81.0455" width="15" height="15"/>
+  <object id="64" name="herbes" type="herbes" x="159.773" y="81.4091" width="15" height="15"/>
+  <object id="65" name="herbes" type="herbes" x="175.045" y="80.3182" width="15" height="15"/>
+  <object id="66" name="herbes" type="herbes" x="193.045" y="79.2273" width="15" height="15"/>
+  <object id="67" name="herbes" type="herbes" x="208.682" y="80.3182" width="15" height="15"/>
+  <object id="68" name="herbes" type="herbes" x="223.591" y="81.7727" width="15" height="15"/>
+  <object id="69" name="herbes" type="herbes" x="239.045" y="81.0455" width="15" height="15"/>
+  <object id="70" name="herbes" type="herbes" x="256.318" y="81.0455" width="15" height="15"/>
+  <object id="71" name="herbes" type="herbes" x="255.591" y="95.5909" width="15" height="15"/>
+  <object id="72" name="herbes" type="herbes" x="255.045" y="111.227" width="15" height="15"/>
+  <object id="73" name="herbes" type="herbes" x="255.591" y="126.682" width="15" height="15"/>
+  <object id="74" name="herbes" type="herbes" x="238.318" y="128.318" width="15" height="15"/>
+  <object id="75" name="herbes" type="herbes" x="223.773" y="127.591" width="15" height="15"/>
+  <object id="76" name="herbes" type="herbes" x="207.773" y="127.773" width="15" height="15"/>
+  <object id="77" name="herbes" type="herbes" x="191.409" y="127.955" width="15" height="15"/>
+  <object id="78" name="herbes" type="herbes" x="176.136" y="127.591" width="15" height="15"/>
+  <object id="79" name="herbes" type="herbes" x="240.682" y="111.591" width="15" height="15"/>
+  <object id="80" name="herbes" type="herbes" x="240.318" y="96.1364" width="15" height="15"/>
+  <object id="81" name="herbes" type="herbes" x="224.318" y="96.8636" width="15" height="15"/>
+  <object id="82" name="herbes" type="herbes" x="224.136" y="111.773" width="15" height="15"/>
+  <object id="83" name="herbes" type="herbes" x="208.5" y="96.3182" width="15" height="15"/>
+  <object id="84" name="herbes" type="herbes" x="207.409" y="111.591" width="15" height="15"/>
+  <object id="85" name="herbes" type="herbes" x="192.682" y="96.1364" width="15" height="15"/>
+  <object id="86" name="herbes" type="herbes" x="191.045" y="111.045" width="15" height="15"/>
+  <object id="87" name="herbes" type="herbes" x="176.5" y="95.0455" width="15" height="15"/>
+  <object id="88" name="herbes" type="herbes" x="174.5" y="110.682" width="15" height="15"/>
+  <object id="89" name="herbes" type="herbes" x="160.318" y="95.5909" width="15" height="15"/>
+  <object id="90" name="herbes" type="herbes" x="159.955" y="110.864" width="15" height="15"/>
+  <object id="91" name="herbes" type="herbes" x="160" y="128" width="15" height="15"/>
+  <object id="92" name="herbes" type="herbes" x="144.136" y="95.5909" width="15" height="15"/>
+  <object id="93" name="herbes" type="herbes" x="143.591" y="112.136" width="15" height="15"/>
+  <object id="94" name="herbes" type="herbes" x="144.136" y="127.591" width="15" height="15"/>
+  <object id="95" name="herbes" type="herbes" x="128.136" y="96.6818" width="15" height="15"/>
+  <object id="96" name="herbes" type="herbes" x="128.864" y="112.136" width="15" height="15"/>
+  <object id="97" name="herbes" type="herbes" x="128.318" y="127.227" width="15" height="15"/>
+  <object id="98" name="herbes" type="herbes" x="32.8636" y="95.7727" width="15" height="15"/>
+  <object id="99" name="herbes" type="herbes" x="49.4091" y="95.9545" width="15" height="15"/>
+  <object id="100" name="herbes" type="herbes" x="65.4091" y="96.5" width="15" height="15"/>
+  <object id="101" name="herbes" type="herbes" x="81.2273" y="96.3182" width="15" height="15"/>
+  <object id="102" name="herbes" type="herbes" x="97.2273" y="96.3182" width="15" height="15"/>
+  <object id="103" name="herbes" type="herbes" x="113.045" y="96.6818" width="15" height="15"/>
+  <object id="104" name="herbes" type="herbes" x="113.591" y="112.318" width="15" height="15"/>
+  <object id="105" name="herbes" type="herbes" x="97.2273" y="111.409" width="15" height="15"/>
+  <object id="106" name="herbes" type="herbes" x="80.8636" y="112.136" width="15" height="15"/>
+  <object id="107" name="herbes" type="herbes" x="65.7727" y="112.682" width="15" height="15"/>
+  <object id="108" name="herbes" type="herbes" x="49.9545" y="112.5" width="15" height="15"/>
+  <object id="109" name="herbes" type="herbes" x="33.7727" y="111.955" width="15" height="15"/>
+  <object id="110" name="herbes" type="herbes" x="114.318" y="128.136" width="15" height="15"/>
+  <object id="111" name="herbes" type="herbes" x="97.7727" y="128.136" width="15" height="15"/>
+  <object id="112" name="herbes" type="herbes" x="81.4091" y="127.227" width="15" height="15"/>
+  <object id="113" name="herbes" type="herbes" x="65.4091" y="128.5" width="15" height="15"/>
+  <object id="114" name="herbes" type="herbes" x="49.9545" y="127.955" width="15" height="15"/>
+  <object id="115" name="herbes" type="herbes" x="33.0455" y="127.591" width="15" height="15"/>
+  <object id="116" name="herbes" type="herbes" x="96.5" y="208.5" width="14.75" height="15.75"/>
+  <object id="117" name="herbes" type="herbes" x="112.75" y="207.875" width="14.75" height="15.75"/>
+  <object id="118" name="herbes" type="herbes" x="128.75" y="208" width="14.75" height="15.75"/>
+  <object id="119" name="herbes" type="herbes" x="144.625" y="208.125" width="14.75" height="15.75"/>
+  <object id="120" name="herbes" type="herbes" x="160.625" y="208" width="14.75" height="15.75"/>
+  <object id="121" name="herbes" type="herbes" x="176.5" y="208" width="14.75" height="15.75"/>
+  <object id="122" name="herbes" type="herbes" x="192.5" y="207.75" width="14.75" height="15.75"/>
+  <object id="123" name="herbes" type="herbes" x="208.75" y="208.25" width="14.75" height="15.75"/>
+  <object id="124" name="herbes" type="herbes" x="224.625" y="208.125" width="14.75" height="15.75"/>
+  <object id="125" name="herbes" type="herbes" x="240.25" y="208.375" width="14.75" height="15.75"/>
+  <object id="126" name="herbes" type="herbes" x="256.5" y="208.125" width="14.75" height="15.75"/>
+  <object id="127" name="herbes" type="herbes" x="272.875" y="208" width="14.75" height="15.75"/>
+  <object id="128" name="herbes" type="herbes" x="288.25" y="208.75" width="14.75" height="15.75"/>
+  <object id="129" name="herbes" type="herbes" x="303.875" y="208.625" width="14.75" height="15.75"/>
+  <object id="130" name="herbes" type="herbes" x="304.25" y="224.875" width="14.75" height="15.75"/>
+  <object id="131" name="herbes" type="herbes" x="288.625" y="224.625" width="14.75" height="15.75"/>
+  <object id="132" name="herbes" type="herbes" x="273" y="224.125" width="14.75" height="15.75"/>
+  <object id="133" name="herbes" type="herbes" x="257" y="223.375" width="14.75" height="15.75"/>
+  <object id="134" name="herbes" type="herbes" x="241.5" y="223.625" width="14.75" height="15.75"/>
+  <object id="135" name="herbes" type="herbes" x="224.75" y="224.125" width="14.75" height="15.75"/>
+  <object id="136" name="herbes" type="herbes" x="209.25" y="223.875" width="14.75" height="15.75"/>
+  <object id="137" name="herbes" type="herbes" x="192.875" y="223.375" width="14.75" height="15.75"/>
+  <object id="138" name="herbes" type="herbes" x="177.25" y="223.375" width="14.75" height="15.75"/>
+  <object id="139" name="herbes" type="herbes" x="161" y="223.625" width="14.75" height="15.75"/>
+  <object id="140" name="herbes" type="herbes" x="144.75" y="223.75" width="14.75" height="15.75"/>
+  <object id="141" name="herbes" type="herbes" x="128.5" y="223.875" width="14.75" height="15.75"/>
+  <object id="142" name="herbes" type="herbes" x="113.125" y="223.375" width="14.75" height="15.75"/>
+  <object id="143" name="herbes" type="herbes" x="97" y="223.125" width="14.75" height="15.75"/>
+  <object id="144" name="herbes" type="herbes" x="80.625" y="223.625" width="14.75" height="15.75"/>
+  <object id="145" name="herbes" type="herbes" x="80.875" y="239.75" width="14.75" height="15.75"/>
+  <object id="146" name="herbes" type="herbes" x="97.125" y="239.5" width="14.75" height="15.75"/>
+  <object id="147" name="herbes" type="herbes" x="113.75" y="239.75" width="14.75" height="15.75"/>
+  <object id="148" name="herbes" type="herbes" x="129.5" y="239.5" width="14.75" height="15.75"/>
+  <object id="149" name="herbes" type="herbes" x="146" y="239.375" width="14.75" height="15.75"/>
+  <object id="150" name="herbes" type="herbes" x="161.375" y="240" width="14.75" height="15.75"/>
+  <object id="151" name="herbes" type="herbes" x="177.875" y="239.875" width="14.75" height="15.75"/>
+  <object id="152" name="herbes" type="herbes" x="193.75" y="239.75" width="14.75" height="15.75"/>
+  <object id="153" name="herbes" type="herbes" x="209.875" y="239.5" width="14.75" height="15.75"/>
+  <object id="154" name="herbes" type="herbes" x="224.75" y="239.5" width="14.75" height="15.75"/>
+  <object id="155" name="herbes" type="herbes" x="241.5" y="239.75" width="14.75" height="15.75"/>
+  <object id="156" name="herbes" type="herbes" x="256.75" y="240" width="14.75" height="15.75"/>
+  <object id="157" name="herbes" type="herbes" x="272.625" y="239.625" width="14.75" height="15.75"/>
+  <object id="158" name="herbes" type="herbes" x="288.75" y="239.75" width="14.75" height="15.75"/>
+  <object id="159" name="herbes" type="herbes" x="304.625" y="239.875" width="14.75" height="15.75"/>
+  <object id="160" name="herbes" type="herbes" x="304.25" y="256" width="14.75" height="15.75"/>
+  <object id="161" name="herbes" type="herbes" x="289" y="255.875" width="14.75" height="15.75"/>
+  <object id="162" name="herbes" type="herbes" x="273" y="255.75" width="14.75" height="15.75"/>
+  <object id="163" name="herbes" type="herbes" x="257.5" y="256.125" width="14.75" height="15.75"/>
+  <object id="164" name="herbes" type="herbes" x="241.875" y="255.875" width="14.75" height="15.75"/>
+  <object id="165" name="herbes" type="herbes" x="225.125" y="255.25" width="14.75" height="15.75"/>
+  <object id="166" name="herbes" type="herbes" x="209.125" y="255.125" width="14.75" height="15.75"/>
+  <object id="167" name="herbes" type="herbes" x="193.375" y="255.375" width="14.75" height="15.75"/>
+  <object id="168" name="herbes" type="herbes" x="177" y="255.375" width="14.75" height="15.75"/>
+  <object id="169" name="herbes" type="herbes" x="161.125" y="255.375" width="14.75" height="15.75"/>
+  <object id="170" name="herbes" type="herbes" x="144.625" y="254.125" width="14.75" height="15.75"/>
+  <object id="171" name="herbes" type="herbes" x="129.25" y="255" width="14.75" height="15.75"/>
+  <object id="172" name="herbes" type="herbes" x="113.375" y="254.875" width="14.75" height="15.75"/>
+  <object id="173" name="herbes" type="herbes" x="81.25" y="255.25" width="14.75" height="15.75"/>
+  <object id="174" name="herbes" type="herbes" x="98" y="254.625" width="14.75" height="15.75"/>
+ </objectgroup>
+ <objectgroup id="7" name="tp">
+  <object id="22" name="exit_chemin1_1" x="176.25" y="383.75" width="48.125" height="15.875"/>
+  <object id="23" name="spawn_chemin_from_map1" type="spawn_chemin_from_map1" x="192.333" y="335.333">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
